@@ -1,0 +1,23 @@
+language: ruby
+bundler_args: --without development
+script: "bundle exec rake spec SPEC_OPTS='--format documentation'"
+rvm:
+  - 2.0.0
+env:
+  - PUPPET_GEM_VERSION="~> 3.2.0"
+matrix:
+  exclude:
+    - rvm: 2.0.0
+      env: PUPPET_GEM_VERSION="~> 2.7.0"
+notifications:
+  email:
+    - paul4hough@gmail.com
+branches:
+  only:
+    - devel
+
+before_script:
+  - echo -e "Host heroku.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
+script: "bundle exec rake -t test_ignore"
