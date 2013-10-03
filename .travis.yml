@@ -12,6 +12,9 @@ matrix:
 notifications:
   email:
     - paul4hough@gmail.com
+branches:
+  only:
+    - devel
 
 before_script:
   - echo -e "Host heroku.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
