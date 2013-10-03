@@ -17,4 +17,4 @@ before_script:
   - echo -e "Host heroku.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
-script: "bundle exec rake -t test_ignore"
+script: "bundle exec rake -t spec:system"
