@@ -9,9 +9,7 @@ Tiny puppet module that provides home_${user} directory facts according to /etc/
 
 None, but see .fixtures.yml for the most accurate list
 
-## Use - DO NOT!
-
-Only test have been created so far.
+## Use
 
 Install the module. I recommend using .fixture.yml and [librarian-puppet](https://github.com/rodjek/librarian-puppet) and providing the GitHub url: https://github.com/pahoughton/puppet-homedirs
 
