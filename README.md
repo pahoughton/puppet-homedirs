@@ -3,7 +3,7 @@
 
 [![Test Build Status](https://travis-ci.org/pahoughton/puppet-homedirs.png?branch=devel)](https://travis-ci.org/pahoughton/puppet-homedirs)
 
-Tiny puppet module that provides home_${user} directory facts according to /etc/password (i.e. home_root, home_postgresql
+Tiny puppet module that provides home_${user} directory facts according to /etc/password (i.e. home_root, home_postgresql).
 
 ## Dependencies
 
