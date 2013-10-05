@@ -24,8 +24,6 @@ NOTE: this will not work for users you create.
      managehome  => true,
    }
    # $::home_somebody is NOT set.
-   
-## License
 
-Public domain, do as you wish with this. I would be nice to be included in the credits :). In keeping with that, I just made a module and wrote the test. I copied the actual functionallity from [jfried](http://serverfault.com/users/88598/jfried's) answer to a [ServerFault](http://serverfault.com/questions/420749) question.
+[![LICENSE](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/)
 
